@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Android Widget Equine Integration</string>
+    <string name="add_widget">Add widget</string>
+    <string name="app_widget_description">This widget is the small view of the Equine Integration app </string>
+    <string name="app_widget_description_large">This widget is the medium view of the Equine Integration app  </string>
+    <string name="recording_success">Recording was succesfull.</string>
+    <string name="recording_success_description">Click to view training recap.</string>
+    <string name="weekly_progress">Weekly progress</string>
+    <string name="tips_for_improvement">Tips for improvement:</string>
+    <string name="tip_1">Phone on left side of pocket</string>
+    <string name="tip_2">Bluetooth connected to sensor</string>
+    <string name="alert_icon">alert icon</string>
+    <string name="recording_went_wrong">Recording went wrong.</string>
+    <string name="there_is_no_or_incorrect_data">There is no or incorrect data.</string>
+</resources>

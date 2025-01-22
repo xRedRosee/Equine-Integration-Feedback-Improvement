@@ -1,0 +1,44 @@
+<resources name="recordingAlert">
+    <!--    Horse name-->
+    <style name="Horse_name" parent="android:Widget">
+        <item name="android:paddingLeft">@dimen/defaultPadding</item>
+        <item name="android:textSize">@dimen/largeTitleTextSize</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/darkTextColor</item>
+    </style>
+
+    <!--Recording info -->
+    <style name="recordingSmallTitle" parent="android:Widget">
+        <item name="android:paddingBottom">@dimen/defaultPadding</item>
+        <item name="android:textSize">@dimen/smallTitleTextSize</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/lightTextColor</item>
+    </style>
+
+    <style name="recordingSmallText" parent="android:Widget">
+        <item name="android:paddingBottom">@dimen/defaultPadding</item>
+        <item name="android:textSize">@dimen/smallTextSize</item>
+        <item name="android:textColor">@color/lightTextColor</item>
+    </style>
+
+    <!--    Improvement-->
+    <style name="improvement_intensitySmallTitle" parent="android:Widget">
+        <item name="android:paddingBottom">@dimen/defaultPadding</item>
+        <item name="android:textSize">@dimen/smallTitleTextSize</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/darkTextColor</item>
+    </style>
+
+    <style name="improvementSmallText" parent="android:Widget">
+        <item name="android:paddingHorizontal">@dimen/defaultPadding</item>
+        <item name="android:textSize">@dimen/smallTextSize</item>
+        <item name="android:textColor">@color/darkTextColor</item>
+    </style>
+
+    <style name="bigGrayTitle">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/dark_gray</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginBottom">@dimen/defaultMargin</item>
+    </style>
+</resources>

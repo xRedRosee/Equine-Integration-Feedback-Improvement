@@ -1,0 +1,35 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/green_rectangle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/green_rectangle"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_marginTop="@dimen/defaultMargin"
+    android:padding="@dimen/defaultPadding"
+    >
+
+    <ImageView
+        android:id="@+id/thumbs_up_icon"
+        android:layout_width="@dimen/smallIconSize"
+        android:layout_height="@dimen/smallIconSize"
+        android:contentDescription="Thumbs up icon"
+        android:src="@drawable/baseline_thumb_up_24" />
+
+    <TextView
+        android:id="@+id/recording_success"
+        style="@style/recordingSmallTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Recording was successful." />
+
+    <TextView
+        android:id="@+id/recording_success_description"
+        style="@style/recordingSmallText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Click to view training recap." />
+</LinearLayout>

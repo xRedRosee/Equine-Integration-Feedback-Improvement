@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/red_rectangle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/defaultMargin"
+        android:background="@drawable/red_rectangle"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/defaultPadding">
+
+        <ImageView
+            android:id="@+id/alert_icon"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:contentDescription="alert icon"
+            android:src="@drawable/alert_icon" />
+
+        <TextView
+            android:id="@+id/recording_error"
+            style="@style/recordingSmallTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Recording went wrong." />
+
+        <TextView
+            android:id="@+id/recording_error_description"
+            style="@style/recordingSmallText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="There is no or incorrect data." />
+    </LinearLayout>
+
+    <!-- Tips -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/defaultPadding"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tips_title"
+            style="@style/improvement_intensitySmallTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tips for improvement:" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/smallPadding"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/checkbox1"
+                style="@style/improvementSmallText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@drawable/custom_checkbox"
+                android:text="Phone on left side of pocket" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/checkbox2"
+                style="@style/improvementSmallText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@drawable/custom_checkbox"
+                android:text="Bluetooth connected to sensor" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

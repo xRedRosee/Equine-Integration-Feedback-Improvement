@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/training_intensity_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/defaultMargin"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/training_intensity_title"
+            style="@style/bigGrayTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Training intensity" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/intensity_icon"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:contentDescription="Low intensity icon"
+                android:src="@drawable/intensity_low" />
+
+            <TextView
+                android:id="@+id/training_intensity_text"
+                style="@style/improvementSmallText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Low intensity means less chance of injuries." />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

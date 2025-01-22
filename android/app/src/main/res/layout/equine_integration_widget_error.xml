@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/defaultPadding">
+
+    <!-- Error widget -->
+    <LinearLayout
+        android:id="@+id/error_widget"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+        <!-- Linker Kolom -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <!-- Emoji en naam -->
+            <include
+                layout="@layout/emoji_name_comp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <!-- Rood blok -->
+            <include
+                layout="@layout/error_rectangle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+
