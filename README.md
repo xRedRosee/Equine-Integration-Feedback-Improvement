@@ -1,16 +1,16 @@
-# tech_prototype_equine_integration
+# Equine Integration feedback improvement project
+This Flutter project was created based on designs me and my team worked on during our Advanced Media semester. 
 
-A new Flutter project.
+## Purpose of the project
+With this project, we wanted to make the feedback equestrians get to see after measuring their trainings more understandable for them. Our solution: new Flutter in-app pages, a watch application and a widget extension for both iOS and Android.
 
-## Getting Started
+## My contribution for this project
+I focused on developing the smartphone widget for iOS devices with Swift and worked on the in-app ribbon collection page and monthly recap pop up with Flutter. Therefore, I improved my Swift development skills and also learned a new framework: Flutter.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Contributors of the project
+- Iris Roemermann
+- Niels Lazaroms
+- Ranim Mohammad
+- Roy Braks
+- Ciaran van Gool
+- Jenny Doan
